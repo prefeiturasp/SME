@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>OT 0XX - Diretrizes para desenvolvimento de sistemas</title>
+        <link rel="icon" href="./Brasão_da_cidade_de_São_Paulo.svg.png">
+        <style type="text/css">
+            @page {
+                size: A4;
+                margin-top: 3cm;
+                margin-bottom: 2cm;
+                margin-left: 3cm;
+                margin-right: 2cm;
+            }
+            @media print {
+                html, body {
+                    width: 210mm;
+                    height: 297mm;
+                }
+                .titular {
+                    margin-top: 9em;
+                }
+            }
+            div, p, h1, h2, h3, h4, ul {
+                font-family: "Arial", "Helvetica", "Sans-serif";
+                text-align: justify;
+                text-justify: inter-word;
+            }
+            div, p, ul {
+                font-size: 14pt;
+            }
+            h1, h2, h3, h4, .titular {
+                font-size: 18pt;
+                font-weight: bold;
+            }
+            h3, h4 {
+                font-size: 14pt;
+                font-weight: bold;
+            }
+            .titular {
+                text-align: center;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+            h2 {
+                page-break-before: always;
+            }
+            .to-do {
+                background-color: red !important;
+            }
+            h2:not(.meio):before {
+                font-size: 40pt;
+                line-height: 1.5em;
+                margin-right: 0.5em;
+            }
+            p {
+                text-indent: 1.25cm;
+                line-height: 1.5em;
+            }
+
+            body {
+                counter-reset: h2counter;
+            }
+            h1:not(.meio) {
+                counter-reset: h2counter;
+            }
+            h2:not(.meio):before {
+                content: counter(h2counter) ".";
+                counter-increment: h2counter;
+                counter-reset: h3counter;
+            }
+            h3:not(.meio):before {
+                content: counter(h2counter) "." counter(h3counter) ".";
+                counter-increment: h3counter;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="titular">ÓRGÃO CENTRAL DO SISTEMA MUNICIPAL DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO DE SÃO PAULO – SMTIC</div>
+        <div class="titular">ORIENTAÇÃO TÉCNICA – 0XX TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO</div>
+        <h1 class="titular">Diretrizes para desenvolvimento de sistemas</h1>
+        <div class="titular page-break">2019</div>
+
+        <h2 class="meio">SUMÁRIO</h2>
+
+        <h2 class="meio">INTRODUÇÃO</h2>
+
+        <p>
+            O presente documento estabelece diversas diretrizes técnicas, gerais e específicas,
+            para os Órgãos do Sistema Municipal de Tecnologia da Informação e Comunicação - SMTIC da Prefeitura Municipal de São Paulo
+            no tocante a aquisições relativas à Tecnologia da Informação e Comunicação.
+        </p>
+
+        <p>
+            Essa Orientação Técnica (OT-0XX/CMTIC) faz parte das Orientações Técnicas (OT) que
+            foram estabelecidas como instrumento de Governança de Tecnologia da Informação e Comunicação – TIC no Decreto Municipal 57.653, de 07 de abril de 2017,
+            que define a Política Municipal de Tecnologia da Informação e Comunicação.
+        </p>
+
+        <p>
+            O objetivo desta OT é padronizar procedimentos e processos de tomada de decisão,
+            bem como disseminar conhecimentos e estimular boas práticas para que os Órgãos Setoriais possam conduzir suas iniciativas de forma embasada e de acordo com o seu grau de maturidade.
+        </p>
+
+        <p>
+            Esta Orientação Técnica contém diversas recomendações e sugestões.
+        </p>
+
+        <p>
+            Uma recomendação é uma diretriz definida pelo Conselho Municipal de Tecnologia da Informação e Comunicação – CMTIC,
+            e estabelece regras, procedimentos ou critérios a serem seguidos por padrão. Desta forma, a sua não adoção deverá ser justificada tecnicamente.
+        </p>
+
+        <p>
+            Uma sugestão é uma boa prática validada pelo CMTIC e possui um caráter não vinculante, mostrando alternativas ou conhecimentos que poderão ser úteis na busca de soluções.
+            Sendo a Tecnologia da Informação e Comunicação temática dinâmica e de soluções em constante evolução e transformação, essa Orientação Técnica poderá ser objeto de revisões posteriores,
+            visando estar atualizada de acordo com os conhecimentos mais atuais e alinhada ao contexto da Prefeitura Municipal de São Paulo.
+        </p>
+
+        <p>
+            Não faz parte do escopo desta OT <span class="to-do">Blablablablabla</span>.
+        </p>
+
+        <p>
+            Em caso de dúvidas, o Portal de Governança de TI (<a href="http://govit.prefeitura.sp.gov.br/">http://govit.prefeitura.sp.gov.br/</a>) é o local principal em que elas poderão ser expostas,
+            discutidas e solucionadas, de forma a fomentar o aumento e melhoria de conhecimentos e procedimentos, bem como a sua disseminação.
+        </p>
+
+        <p>
+            Além do Portal, O Órgão Central do Sistema Municipal de Tecnologia da Informação e Comunicação está à disposição para dirimir eventuais dúvidas advindas desta Orientação.
+        </p>
+
+        <p>
+            Órgão Central - Coordenadoria de Gestão de Tecnologia da Informação e Comunicação (CGTIC): <a href="mailto:cgtic@prefeitura.sp.gov.br">cgtic@prefeitura.sp.gov.br</a>
+        </p>
+
+        <h2>Considerações gerais sobre desenvolvimento de sistemas</h2>
+
+        <h2>Desenvolvimento em microsserviços</h2>
+
+        <p>
+            Muitos sistemas são arquitetados incluindo diversas regras e funcionalidades que modelam uma miríade de comportamentos em centenas de telas, formulários e relatórios distintos.
+            Esses sistemas têm características de serem grandes e pesados, envolvendo um grande número tabelas e um número ainda maior de regras de negócio.
+            Incluem, muitas vezes, várias partes periféricas que pouco tem a ver umas com as outras.
+            Frequentemente esses tipos de sistemas, mesmo quando novos, tornar-se-ão futuros sistemas legados depois de poucos anos.
+        </p>
+
+        <p>
+            A evolução, adaptação e correção desses sistemas monolíticos normalmente são custosas, trabalhosas, arriscadas e demoradas.
+            Migrações de tecnologias obsoletas para tecnologias novas são frequentemente desmotivadas, dificultadas ou inviabilizadas frente a arquiteturas monolíticas.
+        </p>
+
+        <p>
+            Por outro lado, uma forma diferente de arquitetar sistemas é por meio de microsserviços, onde diferentemente da arquitetura monolítica, o projeto é dividido em pequenos módulos com responsabilidades únicas.
+            Assim sendo:
+        </p>
+
+        <h3 class="meio">Sugestões</h3>
+        <ul>
+            <li>Sistemas novos sejam idealizados em uma estrutura de microsserviços, procurando-se afastamento de arquiteturas monolíticas.</li>
+        </ul>
+
+        <p>
+            Cada microsserviço deve ser, no máximo que for possível, responsável por um único aspecto, regra ou funcionalidade do serviço.
+            Se forem identificadas duas ou mais regras ou funcionalidades em um microsserviço, deve-se então subdividi-lo em dois ou mais microsserviços menores.
+        </p>
+
+        <p>
+            Funcionalidades complexas são providas por microsserviços que conversam entre si.
+            Por exemplo, um microsserviço que vise relacionar professores com escolas irá consultar um outro microsserviço que mantém o cadastro
+            dos dados das escolas e mais um outro microsserviço que mantém o cadastro dos professores.
+        </p>
+
+        <p>
+            Outra vantagem desta arquitetura é que microsserviços que se conversam não precisam ser desenvolvidos na mesma linguagem de programação e nem utilizar as mesmas
+            tecnologias de persistência (banco de dados), deixando a escolha das tecnologias de cada microsserviço pouco relevante para o todo, relevando-as a um papel mais localizado e pontual.
+            As vantagens vão mais além: eles podem ser implantados independentemente, até mesmo em servidores distintos, escalados e administrados de forma independente
+            e isso também tende a distribuir melhor a carga de rede e de processamento (embora o total possa ser maior do que seria no formato monolítico).
+        </p>
+
+        <p>
+            É possível fazer-se microsserviços que conversem em SOAP, ou em CORBA, por meio de FTP, RMI ou qualquer outra forma de troca de informações.
+            Entretanto, é boa ideia padronizar-se um único formato de troca de mensagens entre microsserviços para que haja homogeneidade.
+            Além disso, deve-se prezar para que tal formato seja estruturado, simples, compacto e tecnologicamente neutro, evitando-se criar dependências com tecnologias específicas e proprietárias.
+            Assim sendo, os microsserviços devem conversar-se utilizando o padrão REST e as mensagens preferencialmente devem ter o formato JSON (excetuando-se dados codificados em formatos binários
+            tais como áudios, vídeos, imagens e outros arquivos digitais ou aqueles que tenham uma boa justificativa pelo contrário).
+            Nota-se que pelo padrão REST, toda entidade deve ser representada como um recurso e que cada recurso deve ser representado por uma URL que na medida do possível, deve ser única e imutável.
+            A rigor, as portas TCP preferidas são a 80 e a 443 (para HTTPS), mas o uso de portas TCP alternativas são aceitáveis.
+        </p>
+
+        <p>
+            O front-end de um sistema desenvolvido com a arquitetura de microsserviços é reduzido a uma orquestração de serviços REST que fornece uma saída em formato HTML
+            (incluindo também CSS, JavaScript e chamadas Ajax). Além disso, muitas vezes também é possível subdividi-lo em pequenos front-ends menores.
+        </p>
+
+        <p>
+            A troca de dados (conversa) entre dois microsserviços pode ocorrer de forma síncrona ou assíncrona.
+            O modelo assíncrono, especialmente para dados que podem ser custosos de serem produzidos, é mais vantajoso por evitar que um processo em determinado servidor
+            fique parado esperando a resposta do processo em outro servidor, que pode demorar a chegar, especialmente quando há um terceiro serviço envolvido e
+            este pode ser também composto de consultas a outros serviços.
+            Por outro lado, o desenvolvimento e a utilização de serviços assíncronos são mais complexos do que o de serviços síncronos.
+        </p>
+
+        <p>
+            Num sistema monolítico típico, o banco de dados tende a ser estruturado de forma a interrelacionar diversas entidades e garantir-lhes integridade referencial.
+            Ao migrar-se para uma arquitetura de microsserviços, pode-se argumentar que tal integridade referencial é perdida.
+            No entanto, serviços monolíticos que precisam conversar entre si frequentemente mantém tabelas relacionadas com informações duplicadas, o que já significa que a integridade referencial foi perdida.
+            Mais do que isso, a existência de informações duplicadas também implica que a atualização dessa informação é difícil de ser realizada por ser necessária de ser realizada em diversos sistemas diferentes,
+            enquanto que na arquitetura microsserviços, a informação está em um local só.
+        </p>
+
+        <p>
+            Considerando-se a consistência de informações, nota-se então que deletar-se informações armazenadas em microsserviços é
+            algo muito contraindicado devido a possibilidade de produzir inconsistências de dados em outros serviços.
+            Assim sendo, recomenda-se o uso de um processo de inativação de recursos ao invés de um de exclusão de recursos.
+            O mesmo pode ser dito sobre alterações de informações que sirvam para identificar um recurso, sendo pertinente o uso de redirecionamentos neste caso.
+            Mesmo outras informações de cadastro podem ocasionar incoerências se/quando alteradas, e por causa disso,
+            é recomendável que os dados armazenados sejam versionados, exceto nos caos em que isso for muito custoso.
+        </p>
+
+        <p>
+            Muitas APIs são responsáveis por disponibilizar ou alterar informações pessoas e/ou sigilosas,
+            e por isso é importante que o acesso a elas seja devidamente protegido por mecanismos de autenticação e autorização.
+            Por outro lado, outras APIs são responsáveis por disponibilizar (mas nunca alterar) informações disponíveis ao público, e que, portanto, devem ser passíveis de serem livremente acessadas.
+            Deste modo, microsserviços que disponibilizam informações públicas não devem exigir autenticação e autorização,
+            ao passo que aqueles que disponibilizam ou permitem a sua alteração devem obrigatoriamente exigir autenticação e autorização.
+            Além disso, sugere-se que não se misture em um mesmo microsserviço, endpoints que exijam autenticação e autorização e endpoints que não os exijam.
+        </p>
+
+        <!-- 
+            [Vídeos do spotify]
+            [Alguma coisa que diga sobre a arquitetura da amazon]
+
+            Plano de reestruturação arquitetural para daqui 15 dias.
+            Desenvolvimento com microsserviços
+            Um dos focos do contrato é com a manutenibilidade.
+        -->
+
+
+</body>
+
