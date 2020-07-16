@@ -1,11 +1,8 @@
-Pra você que tá chegando agora e veio por conta do hacktoberfest, esse é o repositório central e as issues estão nele, mas ele é basicamente infra. O repositório em rails é esse:  [plataforma curriculo API](https://github.com/prefeiturasp/SME-plataforma-curriculo-API) issues com a tag API viram PRs nele.
-e o react é esse aqui:  [plataforma curriculo interface](https://github.com/prefeiturasp/SME-plataforma-curriculo-interface) issues com a tag interface viram PRs nele.
-
-# Pátio Digital
-
+# Ateliê do Software
 _“Recurso público retorna ao público”._
 
-Nós somos o **pátio digital**, uma iniciativa da Secretaria Municipal de Educação de São Paulo que, por meio do fortalecimento da transparência, da participação social e do desenvolvimento de novas tecnologias, aproxima diferentes grupos da sociedade civil por um objetivo maior: a melhoria da educação na cidade de São Paulo.
+O Ateliê do Software da SME tem o objetivo de garantir a manutenção e evolução dos sistemas em operação e construir sistemas novos sob demanda, possibilitado a partir do Edital nº 33/SME/2017. 
+Baseados em um modelo de contratação baseado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias).
 
 # Nome do Produto
 Descrever a visão do produto.
@@ -79,6 +76,20 @@ https://www.caroli.org/visao-do-produto-exemplos-de-resultados/
 </table>
 
 ## Sobre o Produto
+
+### Visão do Produto
+Em algum lugar entre a ideia e o lançamento, a visão do produto ajuda a trilhar o caminho inicial. Ela define a essência do seu valor de negócio e deve refletir uma mensagem clara e convincente para seus clientes. Essa atividade ajudará a definir colaborativamente a visão do produto.
+
+**Exemplo de Visão de Produto:**
+*Para [cliente final],
+cujo [problema que precisava ser resolvido],
+o [nome do produto]
+é uma [categoria do produto]
+que [benefício-chave, razão para adquiri-lo].
+Diferentemente da [alternativa da concorrência],
+o nosso prodo [diferença-chave].*
+
+A atividade É / Não é / Faz / Não faz ajuda a definir um produto. Por vezes, é mais fácil descrever algo pelo que tal coisa não é ou deixa de fazer. Ela busca clarificações ao indagar especificamente cada aspecto positivo e negativo sobre o produto ser ou fazer algo.
 
 ### Objetivos de Negócio
 Descrever o objetivo do produto e suas principais funcionalidades de forma bem macro.  
