@@ -1,14 +1,17 @@
-Pra você que tá chegando agora e veio por conta do hacktoberfest, esse é o repositório central e as issues estão nele, mas ele é basicamente infra. O repositório em rails é esse:  [plataforma curriculo API](https://github.com/prefeiturasp/SME-plataforma-curriculo-API) issues com a tag API viram PRs nele.
-e o react é esse aqui:  [plataforma curriculo interface](https://github.com/prefeiturasp/SME-plataforma-curriculo-interface) issues com a tag interface viram PRs nele.
+# Ateliê do Software
+*"Recurso público retorna ao público"*
 
-# Pátio Digital
+O Ateliê do Software é uma das iniciativas para operacionalização da PORTARIA SME Nº 8.008, DE 12 DE NOVEMBRO DE 2018 ([http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018](http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018 "http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018")), que instituiu a **Estratégia de Transformação Digital e Governo Aberto “Pátio Digital” no âmbito da Secretaria Municipal de Educação**. A Portaria foi criada com o objetivo de promover a entrega de sistemas e serviços digitais ágeis, abertos, íntegros e acessíveis, fortalecer a transparência e desenvolver processos colaborativos com a sociedade.
 
-_“Recurso público retorna ao público”._
+A partir do Edital nº 33/SME/2017 ([http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf](http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf "http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1x/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf")), o Ateliê do Software da SME foi constituído. Baseado em um modelo de contratação inspirado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias) e concretizam os objetivos da Estratégia de Transformação Digital e Governo Aberto “Pátio Digital”.
 
-Nós somos o **pátio digital**, uma iniciativa da Secretaria Municipal de Educação de São Paulo que, por meio do fortalecimento da transparência, da participação social e do desenvolvimento de novas tecnologias, aproxima diferentes grupos da sociedade civil por um objetivo maior: a melhoria da educação na cidade de São Paulo.
 
 # Nome do Produto
-Descrever a visão do produto.
+
+### Visão do Produto
+Em algum lugar entre a ideia e o lançamento, a visão do produto ajuda a trilhar o caminho inicial. Ela define a essência do seu valor de negócio e deve refletir uma mensagem clara e convincente para seus clientes. Essa atividade ajudará a definir colaborativamente a visão do produto.
+
+A atividade É / Não é / Faz / Não faz ajuda a definir um produto. Por vezes, é mais fácil descrever algo pelo que tal coisa não é ou deixa de fazer. Ela busca clarificações ao indagar especificamente cada aspecto positivo e negativo sobre o produto ser ou fazer algo.
 
 Exemplo:  
 > Para os **peladeiros de plantão**  
@@ -18,8 +21,8 @@ Exemplo:
 > Que **facilita encontrar jogos**  
 > Diferentemente de **boca-a-boca**  
 > O Nosso produto **maximiza as chances de acontecimento das peladas**
-
 https://www.caroli.org/visao-do-produto-exemplos-de-resultados/
+
 
 **Conteúdo:**
  1. [Sobre o Time](#Sobre-o-Time)
@@ -175,4 +178,3 @@ Inserir link para a pasta de documentações ou algum material específico que t
 ## Instalação e Configuração:
 
 Inserir aqui todas as informações de instalação e configuração da aplicação para desenvolvimento.
-
