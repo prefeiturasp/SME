@@ -1,9 +1,19 @@
 # Ateliê do Software
 *"Recurso público retorna ao público"*
 
-O Ateliê do Software é uma das iniciativas para operacionalização da PORTARIA SME Nº 8.008, DE 12 DE NOVEMBRO DE 2018 ([http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018](http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018 "http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-de-educacao-sme-8008-de-12-de-novembro-de-2018")), que instituiu a **Estratégia de Transformação Digital e Governo Aberto “Pátio Digital” no âmbito da Secretaria Municipal de Educação**. A Portaria foi criada com o objetivo de promover a entrega de sistemas e serviços digitais ágeis, abertos, íntegros e acessíveis, fortalecer a transparência e desenvolver processos colaborativos com a sociedade.
+**Estratégia de Transformação Digital e Governo Aberto na SME**
 
-A partir do Edital nº 33/SME/2017 ([http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf](http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf "http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1x/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf")), o Ateliê do Software da SME foi constituído. Baseado em um modelo de contratação inspirado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias) e concretizam os objetivos da Estratégia de Transformação Digital e Governo Aberto “Pátio Digital”.
+Como um governo pode atuar para garantir o bem comum de todos? Na SME, acreditamos que um dos meios para isso seja garantir transparência e prestação de contas e constante relação entre governo e sociedade para o desenvolvimento e implementação de políticas públicas.
+
+A Portaria SME nº 8.008, de 12 de novembro de 2018 oficializou a estratégia da Secretaria Municipal de Educação de SP para que nossas ações sejam pautadas nos princípios de Governo Aberto e para usarmos os valores e benefícios do mundo digital para melhorarmos nossos processos e serviços para os cidadãos. Com isso, pretendemos:
+
+- aumentar os níveis de transparência ativa e de abertura de dados, garantindo a proteção de dados pessoais;
+- instituir metodologias ágeis e colaborativas como parte do processo de desenvolvimento e de evolução de sistemas administrativos e de serviços digitais;
+- fortalecer o controle das políticas educacionais e da aplicação de recursos por parte da gestão e da sociedade;
+- promover espaços e metodologias de colaboração entre governo, Academia, sociedade civil e setor privado.
+
+O Ateliê do Software (http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf) é uma das ferramentas para operacionalização. Baseado em um modelo de contratação inspirado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias) e concretizam os objetivos da Estratégia de Transformação Digital e Governo Aberto “Pátio Digital”.
+
 
 
 # Nome do Produto
