@@ -173,3 +173,18 @@ Inserir link para a pasta de documentações ou algum material específico que t
 
 Inserir aqui todas as informações de instalação e configuração da aplicação para desenvolvimento.
 
+
+
+
+
+
+## To Do:
+- [x] Revisar Introdução
+- [ ] Alterar "Pátio Digital" para "Transformação Digital"
+- [ ] Revisar Produto (necessário?)
+- [ ] Revisar Sobre o Time
+- [ ] Revisar Sobre o Produto (necessário?)
+- [ ] Revisar Links úteis
+- [ ] Revisar os Canais de Comunicação
+- [ ] Linkar todos os projetos e colocar breve descrição
+- [ ] Relacionar os documentos/orientações técnicas
