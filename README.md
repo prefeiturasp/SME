@@ -163,11 +163,7 @@ nosso [código de conduta](./CODEOFCONDUCT.md).
 ## Repositórios:
 Informar os repositórios de código que envolvem a solução:
 
-[SME-SGP API]
-
-[SME-SGP FRONT]
-
-[SME-SGP BACK]
+[SME-FilaDaCreche](https://github.com/prefeiturasp/SME-FilaDaCreche) - substituído por [SME-VagasNaCreche](https://github.com/prefeiturasp/SME-VagasNaCreche)
 
 ## Documentações Auxiliares:
 
