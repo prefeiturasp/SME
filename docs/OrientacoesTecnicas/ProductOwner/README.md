@@ -35,7 +35,9 @@ As responsabilidades de um *Product Owner* não podem ser delegadas à um grupo 
 
 Para que o *Product Owner* tenha sucesso, toda a organização deve respeitar suas decisões, sendo essas transparentes, tanto quanto sua ordem de prioridades quanto ao teor do conteúdo de suas priorizações.
 
-Figura 1
+![Time de Produto](./time-de-produto.png)
+
+Time de Produto
 
 
 
